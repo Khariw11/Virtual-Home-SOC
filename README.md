@@ -26,10 +26,10 @@ Built on Proxmox, the lab brings together multiple open-source tools to emulate 
 
 ## Repository Directory Guide
 
-**Diagrams** - Visual representations of architecture  
+**Diagrams** - Visual representations of architecture.  
 
-**Docs** - Guides and notes for tool setup and usage 
+**Docs** - Guides and notes for tool setup and usage. 
 
-**Scenarios** - Simulate attack references 
+**Scenarios** - Simulated attack references. 
 
-**Scripts** - Scripts used within the lab environment
+**Scripts** - Scripts used within the lab environment.
