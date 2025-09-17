@@ -1,0 +1,55 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="GqWOJINgyLZWvwjFSohg">
+    <mxGraphModel dx="702" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1kKtOHIdCjoI9g5E1zn_-4" value="" style="shape=mxgraph.cisco.servers.fileserver;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="113.5" y="488" width="43" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="1kKtOHIdCjoI9g5E1zn_-5" value="Proxmox (ThinkCentre)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="555" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1kKtOHIdCjoI9g5E1zn_-8" value="" style="shape=mxgraph.cisco.servers.file_server;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="482" width="43" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="1kKtOHIdCjoI9g5E1zn_-9" value="&lt;div&gt;Wazuh&lt;/div&gt;&lt;div&gt;SIEM/XDR&lt;/div&gt;(Ubuntu Server)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="540" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1kKtOHIdCjoI9g5E1zn_-10" value="" style="shape=mxgraph.cisco.computers_and_peripherals.laptop;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="320" width="90" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="1kKtOHIdCjoI9g5E1zn_-11" value="MacBook&lt;div&gt;(Daily Workflow)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="194.5" y="367.5" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1kKtOHIdCjoI9g5E1zn_-12" value="" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="306.5" width="99" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="1kKtOHIdCjoI9g5E1zn_-13" value="Kali Linux VM&lt;div&gt;(Attack Machine)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="381" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1kKtOHIdCjoI9g5E1zn_-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.14;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=default;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="1kKtOHIdCjoI9g5E1zn_-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="350" as="sourcePoint" />
+            <mxPoint x="330" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1kKtOHIdCjoI9g5E1zn_-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1kKtOHIdCjoI9g5E1zn_-10" target="1kKtOHIdCjoI9g5E1zn_-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="350" as="sourcePoint" />
+            <mxPoint x="420" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="413" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1kKtOHIdCjoI9g5E1zn_-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.186;entryY=0.672;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="1kKtOHIdCjoI9g5E1zn_-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="156.5" y="520" as="sourcePoint" />
+            <mxPoint x="206.5" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
